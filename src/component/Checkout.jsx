@@ -19,7 +19,7 @@ const Checkout = () => {
   const userProgressCtx = useContext(UserProgressContext);
 
   const { data, error, sendRequest, clearData } = useHttp(
-    "http://localhost:3000/orders",
+    "https://react-food-project-ihmm.onrender.com/orders",
     requestConfig
   );
 

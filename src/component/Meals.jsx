@@ -9,7 +9,11 @@ const Meals = () => {
     data: meals,
     isLoading,
     error,
-  } = useHttp("http://localhost:3000/meals", requestConfig, []);
+  } = useHttp(
+    "https://react-food-project-ihmm.onrender.com/meals",
+    requestConfig,
+    []
+  );
 
   console.log(meals);
 
