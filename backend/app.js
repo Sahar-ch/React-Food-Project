@@ -5,6 +5,7 @@ import cors from "cors";
 
 const app = express();
 
+// This allows only Sahar-ch domain to make an api call and restrict other any other
 app.use(
   cors({
     origin: "https://sahar-ch.github.io",
