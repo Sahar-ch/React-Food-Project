@@ -1,5 +1,3 @@
-Here’s a basic `README.md` for your GitHub repository. Since your project uses both Node.js and React, I’ve created sections for both the frontend and backend, along with setup instructions for both. You can customize it as needed based on your specific project setup.
-
 ---
 
 # React Food Project
